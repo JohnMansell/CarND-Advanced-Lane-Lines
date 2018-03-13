@@ -269,8 +269,8 @@ red = [255, 0, 0]
 blue = [0, 0, 255]
 green = [0, 100, 0]
 
-myXM = 4 / 384
-myYM = 10 / 720
+myXM = 3.7 / 570
+myYM = 35 / 720
 
 # Video or Pictures
 # For video -- set mySmooth_factor = 10
@@ -283,6 +283,8 @@ curve_centers = tracker(myWindow_width=window_width,
                         myYM= myYM,
                         myXM = myXM,
                         mySmooth_factor=10)
+
+radius_of_curvature = []
 
 
 '''----------------------------
@@ -460,12 +462,21 @@ def process_image(img):
                 1, (255, 255, 255), 2)
 
 
+    # Average Radius of Curvature
+    radius_of_curvature.append(curverad)
+
+    curve_rad_avg = np.average(radius_of_curvature[-15:])
+
+    # Straight or Curved
+    if curverad == 0:
+        curve_str = "Straight"
+    else:
+        curve_str = str(round(curverad, 1)) + ' (m)'
 
 
-    #
     # # Draw the text showing curvature, offset and speed
     cv2.putText(result,
-                'Radius of Curvature = ' + str(round(curverad, 1)) + '(m)',
+                'Radius of Curvature = ' + curve_str,
                 (700, 100),
                 cv2.FONT_HERSHEY_SIMPLEX,
                 1, (255, 255, 255), 2)

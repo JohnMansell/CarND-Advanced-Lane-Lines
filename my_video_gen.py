@@ -56,8 +56,8 @@ picture = 5
 ---------------------------------'''
 from moviepy.editor import VideoFileClip
 
-Output_video = 'output_videos/output_harder_challenge_video.mp4'
-Input_video = 'input_videos/harder_challenge_video.mp4'
+Output_video = 'output_project_video.mp4'
+Input_video = 'input_videos/project_video.mp4'
 
 clip1 = VideoFileClip(Input_video)
 video_clip = clip1.fl_image(helper_functions.process_image)
