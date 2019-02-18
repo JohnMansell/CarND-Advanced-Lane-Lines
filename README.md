@@ -1,9 +1,7 @@
 # Advanced Lane Finding
-
-Modifies a video stream to display the curvature of the lane, distance from center, and mark the lane line
-positions automatically.
-
-
+> Modifies a video stream to display the curvature of the lane, distance from center, and mark the lane line
+positions automatically.  
+> 
 # What I learned
 > * Handle curved lanes
 > * Camera calibration
