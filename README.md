@@ -1,6 +1,11 @@
 # Advanced Lane Finding
-> Modifies a video stream to display the curvature of the lane, distance from center, and mark the lane line
-positions automatically.  
+> [![Advanced Lane Finding](WriteUp_Images/AdvancedLaneFinding.gif)](https://www.youtube.com/watch?v=37lNFBmEjBU "Advanced Lane Finding")  
+> #### click to see full video on YouTube
+# Objective
+> Process a video input:
+> - Lane Curvature
+> - Distance from center
+> - Lane lines
 > 
 # What I learned
 > * Handle curved lanes
@@ -13,6 +18,4 @@ positions automatically.
 >   * Open CV
 >   * matplotlib
 > 
-> [![Advanced Lane Finding](WriteUp_Images/AdvancedLaneFinding.gif)](https://www.youtube.com/watch?v=37lNFBmEjBU "Advanced Lane Finding")  
->
-> See the full [write up](WriteUp.ipynb)
+# [Write Up](WriteUp.ipynb)
