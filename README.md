@@ -1,6 +1,6 @@
 # Advanced Lane Finding
 > [![Advanced Lane Finding](WriteUp_Images/AdvancedLaneFinding.gif)](https://www.youtube.com/watch?v=37lNFBmEjBU "Advanced Lane Finding")  
-> #### click to see full video on YouTube
+> #### [Full video](https://www.youtube.com/watch?v=37lNFBmEjBU) on YouTube
 # Objective
 > Process a video input:
 > - Lane Curvature
