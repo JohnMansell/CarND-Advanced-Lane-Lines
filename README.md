@@ -13,6 +13,6 @@ positions automatically.
 >   * Open CV
 >   * matplotlib
 > 
-> [![Advanced Lane Finding]('WriteUp_Images/AdvancedLaneFinding.gif')](https://www.youtube.com/watch?v=37lNFBmEjBU "Advanced Lane Finding")  
+> [![Advanced Lane Finding](http://img.youtube.com/vi/37lNFBmEjBU/0.jpg)](https://www.youtube.com/watch?v=37lNFBmEjBU "Advanced Lane Finding")  
 >
 > See the full [write up](WriteUp.ipynb)
